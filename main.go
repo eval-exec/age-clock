@@ -115,6 +115,4 @@ loop:
 	}
 
 	s.Fini()
-	fmt.Printf("Finished %d boxes in %s\n", cnt, dur)
-	fmt.Printf("Average is %0.3f ms / box\n", (float64(dur)/float64(cnt))/1000000.0)
 }
